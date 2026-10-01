@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>LocalBridge.Agent</AssemblyName>
+    <RootNamespace>LocalBridge.Agent</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="QRCoder" Version="1.8.0" />
+    <ProjectReference Include="..\Protocol\LocalBridge.Protocol.csproj" />
+    <ProjectReference Include="..\WindowsShared\LocalBridge.WindowsShared.csproj" />
+  </ItemGroup>
+</Project>

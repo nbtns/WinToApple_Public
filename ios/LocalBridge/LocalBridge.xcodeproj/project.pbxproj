@@ -1,0 +1,243 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		100000000000000000000101 /* LocalBridgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000001 /* LocalBridgeApp.swift */; };
+		100000000000000000000102 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000002 /* ContentView.swift */; };
+		100000000000000000000103 /* ReceiverViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000003 /* ReceiverViewModel.swift */; };
+		100000000000000000000104 /* Phase1Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000004 /* Phase1Server.swift */; };
+		100000000000000000000105 /* BufferedConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000005 /* BufferedConnection.swift */; };
+		100000000000000000000106 /* Phase1Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000006 /* Phase1Crypto.swift */; };
+		100000000000000000000107 /* FileReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000007 /* FileReceiver.swift */; };
+		100000000000000000000108 /* DeviceIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000A /* DeviceIdentity.swift */; };
+		100000000000000000000109 /* PairingServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000B /* PairingServer.swift */; };
+		10000000000000000000010A /* AuthenticatedCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000C /* AuthenticatedCrypto.swift */; };
+		10000000000000000000010B /* DestinationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000D /* DestinationRouter.swift */; };
+		10000000000000000000010C /* StoredZipExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000E /* StoredZipExtractor.swift */; };
+		10000000000000000000010D /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000000000000000000000F /* QRCodeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		100000000000000000000001 /* LocalBridgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalBridgeApp.swift; sourceTree = "<group>"; };
+		100000000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		100000000000000000000003 /* ReceiverViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiverViewModel.swift; sourceTree = "<group>"; };
+		100000000000000000000004 /* Phase1Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phase1Server.swift; sourceTree = "<group>"; };
+		100000000000000000000005 /* BufferedConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BufferedConnection.swift; sourceTree = "<group>"; };
+		100000000000000000000006 /* Phase1Crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phase1Crypto.swift; sourceTree = "<group>"; };
+		100000000000000000000007 /* FileReceiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReceiver.swift; sourceTree = "<group>"; };
+		100000000000000000000008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		100000000000000000000009 /* LocalBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10000000000000000000000A /* DeviceIdentity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceIdentity.swift; sourceTree = "<group>"; };
+		10000000000000000000000B /* PairingServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairingServer.swift; sourceTree = "<group>"; };
+		10000000000000000000000C /* AuthenticatedCrypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatedCrypto.swift; sourceTree = "<group>"; };
+		10000000000000000000000D /* DestinationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationRouter.swift; sourceTree = "<group>"; };
+		10000000000000000000000E /* StoredZipExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoredZipExtractor.swift; sourceTree = "<group>"; };
+		10000000000000000000000F /* QRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		100000000000000000000201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		100000000000000000000301 = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000302 /* LocalBridge */,
+				100000000000000000000303 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		100000000000000000000302 /* LocalBridge */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000001 /* LocalBridgeApp.swift */,
+				100000000000000000000002 /* ContentView.swift */,
+				100000000000000000000003 /* ReceiverViewModel.swift */,
+				100000000000000000000004 /* Phase1Server.swift */,
+				100000000000000000000005 /* BufferedConnection.swift */,
+				100000000000000000000006 /* Phase1Crypto.swift */,
+				100000000000000000000007 /* FileReceiver.swift */,
+				10000000000000000000000A /* DeviceIdentity.swift */,
+				10000000000000000000000B /* PairingServer.swift */,
+				10000000000000000000000C /* AuthenticatedCrypto.swift */,
+				10000000000000000000000D /* DestinationRouter.swift */,
+				10000000000000000000000E /* StoredZipExtractor.swift */,
+				10000000000000000000000F /* QRCodeView.swift */,
+				100000000000000000000008 /* Info.plist */,
+			);
+			path = LocalBridge;
+			sourceTree = "<group>";
+		};
+		100000000000000000000303 /* Products */ = {
+			isa = PBXGroup;
+			children = (100000000000000000000009 /* LocalBridge.app */,);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		100000000000000000000401 /* LocalBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 100000000000000000000701 /* Build configuration list for PBXNativeTarget "LocalBridge" */;
+			buildPhases = (
+				100000000000000000000202 /* Sources */,
+				100000000000000000000201 /* Frameworks */,
+				100000000000000000000203 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = LocalBridge;
+			productName = LocalBridge;
+			productReference = 100000000000000000000009 /* LocalBridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		100000000000000000000501 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = { 100000000000000000000401 = { CreatedOnToolsVersion = 16.0; }; };
+			};
+			buildConfigurationList = 100000000000000000000702 /* Build configuration list for PBXProject "LocalBridge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ja;
+			hasScannedForEncodings = 0;
+			knownRegions = (ja, en, Base);
+			mainGroup = 100000000000000000000301;
+			productRefGroup = 100000000000000000000303 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (100000000000000000000401 /* LocalBridge */,);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		100000000000000000000203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		100000000000000000000202 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100000000000000000000101 /* LocalBridgeApp.swift in Sources */,
+				100000000000000000000102 /* ContentView.swift in Sources */,
+				100000000000000000000103 /* ReceiverViewModel.swift in Sources */,
+				100000000000000000000104 /* Phase1Server.swift in Sources */,
+				100000000000000000000105 /* BufferedConnection.swift in Sources */,
+				100000000000000000000106 /* Phase1Crypto.swift in Sources */,
+				100000000000000000000107 /* FileReceiver.swift in Sources */,
+				100000000000000000000108 /* DeviceIdentity.swift in Sources */,
+				100000000000000000000109 /* PairingServer.swift in Sources */,
+				10000000000000000000010A /* AuthenticatedCrypto.swift in Sources */,
+				10000000000000000000010B /* DestinationRouter.swift in Sources */,
+				10000000000000000000010C /* StoredZipExtractor.swift in Sources */,
+				10000000000000000000010D /* QRCodeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		100000000000000000000601 /* Debug target */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LocalBridge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LocalBridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		100000000000000000000602 /* Release target */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LocalBridge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LocalBridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		100000000000000000000603 /* Debug project */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		100000000000000000000604 /* Release project */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		100000000000000000000701 /* Build configuration list for PBXNativeTarget "LocalBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (100000000000000000000601, 100000000000000000000602);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		100000000000000000000702 /* Build configuration list for PBXProject "LocalBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (100000000000000000000603, 100000000000000000000604);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 100000000000000000000501 /* Project object */;
+}

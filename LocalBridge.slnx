@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/windows/">
+    <Project Path="windows/Protocol/LocalBridge.Protocol.csproj" />
+    <Project Path="windows/Phase1Sender/LocalBridge.Phase1Sender.csproj" />
+    <Project Path="windows/Protocol.Tests/LocalBridge.Protocol.Tests.csproj" />
+    <Project Path="windows/WindowsShared/LocalBridge.WindowsShared.csproj" />
+    <Project Path="windows/BackgroundAgent/LocalBridge.Agent.csproj" />
+    <Project Path="windows/BackgroundAgent.Tests/LocalBridge.Agent.Tests.csproj" />
+    <Project Path="windows/SettingsApp/LocalBridge.Settings.csproj" />
+  </Folder>
+</Solution>

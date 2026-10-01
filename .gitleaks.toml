@@ -1,0 +1,14 @@
+title = "WinToApple public source secret scanning"
+
+[extend]
+useDefault = true
+
+[[rules]]
+id = "generic-api-key"
+
+[[rules.allowlists]]
+description = "Swift CryptoKit type declaration contains no key material."
+condition = "AND"
+regexTarget = "line"
+paths = ['''(^|/)ios/LocalBridge/LocalBridge/DeviceIdentity\.swift$''']
+regexes = ['''^\s*let signingKey: P256\.Signing\.PrivateKey\s*$''']
