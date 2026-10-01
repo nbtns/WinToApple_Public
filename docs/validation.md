@@ -21,7 +21,11 @@
 
 文字列検索は、ユーザー名・個人フォルダーパス・秘密鍵ヘッダー・代表的なAPIトークン形式を対象とする限定的な確認です。全種類の秘密情報や脆弱性を保証する検査ではありません。
 
-Gitleaksの標準ルールを使用し、SwiftのCryptoKitの型宣言の誤検知1件だけを `.gitleaks.toml` で除外しています。対象ファイルと行内容の両方が一致する場合に限る設定で、秘密鍵やトークンの値を除外するものではありません。同じファイルに検査用の架空APIキーを置く対照確認では、そのキーは検出されました。Semgrep・GitleaksのGitHub Actionsは設定済みですが、GitHub上での実行結果はまだありません。
+Gitleaksの標準ルールを使用し、SwiftのCryptoKitの型宣言の誤検知1件だけを `.gitleaks.toml` で除外しています。対象ファイルと行内容の両方が一致する場合に限る設定で、秘密鍵やトークンの値を除外するものではありません。同じファイルに検査用の架空APIキーを置く対照確認では、そのキーは検出されました。
+
+## GitHubの自動検査
+
+公開先リポジトリのpushごとにSemgrepとGitleaksを実行します。使用するGitHub Actionsは公式タグが指すコミット番号へ固定しています。最新の実行結果は[リポジトリのActions](https://github.com/nbtns/WinToApple_Public/actions)で確認できます。
 
 ## 自動テストで確認する範囲
 
@@ -42,6 +46,5 @@ Gitleaksの標準ルールを使用し、SwiftのCryptoKitの型宣言の誤検�
 - Windowsへのインストール、証明書の信頼登録、実際の右クリック操作
 - MSIXの一般配布に向けた署名と導入確認
 - Mac/Xcodeでの実験用iOSアプリのビルド
-- GitHub Actionsの実行結果
 
 実機での確認項目と期待結果は[runbook.md](runbook.md)に記載しています。実機確認の結果を追記する際は、確認日・Windows版・iPhone機種・iOS版・ファイル形式と結果を記載してください。
